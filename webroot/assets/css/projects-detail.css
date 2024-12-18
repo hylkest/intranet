@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: row;
+
+    .project-details {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+        padding: 15px;
+    }
+
+    .project-map {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #005087;
+}
+
+.project-management {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+select {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #005087;
+}
+
+input, textarea, select {
+    border: 2px solid #005087!important;
+    padding: 10px!important;
+    margin: 10px!important;
+}
+label {
+    margin-bottom: 0px !important;
+}

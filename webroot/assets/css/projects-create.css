@@ -1,0 +1,10 @@
+select {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #005087;
+}
+
+input, textarea {
+    border: 2px solid #005087!important;
+    padding: 10px!important;
+}

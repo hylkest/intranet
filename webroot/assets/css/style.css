@@ -1,0 +1,149 @@
+body {
+    background: #f5f5f5;
+    font-family: Montserrat, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #002D5A;
+}
+
+p {
+    color: #4A4A4A;  
+}
+
+.btn-blue {
+    background-color: #003366;
+}
+
+.btn-blue:hover {
+    background-color: #004080;
+}
+
+.btn-yellow {
+    background-color: #D9A20B;
+}
+
+.navigation {
+    background-color: #005087;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 8px 16px;
+}
+
+.navigation li a {
+    padding: 8px 16px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #C79400;
+}
+
+.nav-profile {
+    margin-right: auto;
+}
+
+.dropdown-toggle:focus {
+    color: #C79400!important;
+}
+
+.dropdown-link a {
+    color: #004080;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C79400;
+}
+
+.cards-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-overview .card {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-big {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+
+    h1 {
+        font-size: 65px;
+    }
+}
+
+.cards-overview .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-big:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.activity-block {
+    .activity-title {
+        border-bottom: 1px solid;
+    }
+
+    .activity-content {
+        p {
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+    }
+
+    .col.col-big {
+        flex: 0 0 72%;
+
+        .card-big {
+            width: 100%;
+            height: 400px;
+        }
+    }
+
+    .col {
+        flex: 0 0 28%;
+
+        .card-big {
+            height: 400px;
+        }
+    }
+}
+
+.dropdown-menu {
+    z-index: 199999999!important;
+}
+
